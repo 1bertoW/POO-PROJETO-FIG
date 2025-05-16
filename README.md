@@ -54,3 +54,7 @@ Construtor para iniciar os valores;
 Métodos chamados calcArea() que fazem o cálculo.
 ___
 
+O diagrama abaixo mostra como as classes estão ligadas, seus métodos e a estrutura geral do projeto:
+
+👉 Ver Diagrama - Figuras.planas.pdf
+
