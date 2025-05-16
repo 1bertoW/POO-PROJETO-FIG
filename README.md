@@ -56,5 +56,5 @@ ___
 
 O diagrama abaixo mostra como as classes estão ligadas, seus métodos e a estrutura geral do projeto:
 
-👉 Ver Diagrama - Figuras.planas.pdf
+ Ver Diagrama - Figuras.Planas.pdf
 
