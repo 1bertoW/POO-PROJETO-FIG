@@ -1,60 +1,75 @@
-## Projeto de Figuras Geométricas Planas com POO
-Programação Orientada a Objetos aplicada a Figuras Geométricas Planas
+# 📐 Projeto de Figuras Geométricas Planas com POO
 
-Este projeto mostra, de forma simples, como usar Programação Orientada a Objetos (POO) para calcular a área de figuras geométricas planas. Foram criadas várias classes, cada uma representando uma figura, organizadas em pacotes separados. O projeto ajuda a entender conceitos como encapsulamento, herança, organização e reaproveitamento de código.
-___
-## Objetivo
-Criar métodos para calcular a área de diferentes figuras planas, usando os princípios da POO na linguagem Java. Os métodos foram feitos de duas formas: um que retorna o valor da área e outro que apenas mostra o resultado na tela.
-___
-Estrutura do Projeto
-O projeto está dividido em dois pacotes principais:
+🎯 **Programação Orientada a Objetos aplicada a Figuras Geométricas Planas**
 
-### 📁 br.edu.principal
-Tendo a classe principal com o método main, responsável por:
+Este repositório foi criado para mostrar, de forma prática e didática, os conceitos principais da **Programação Orientada a Objetos (POO)**, aplicados no cálculo de áreas de figuras geométricas planas.  
 
-Chamar os métodos de cálculo de área;
+Usando classes para representar cada figura e organizando tudo em pacotes, o projeto reforça princípios como:
 
-mostrar exemplos práticos do uso das classes de figuras.
+- 🔒 Encapsulamento  
+- 🧬 Herança  
+- 🧱 Modularidade  
+- 🧠 Coesão  
+- ♻️ Reutilização de código
 
-### 📁 br.edu.figurasgeometricasplanas
-Reúne todas as classes das figuras. Cada classe tem:
+---
 
-Atributos e comportamentos próprios;
+## 🎯 Objetivo
 
-Métodos que calculam a área, com e sem retorno.
-___
-## Figuras Geométricas Implementadas
+Criar métodos para calcular áreas (com e sem retorno de valor) de várias **figuras planas**, aplicando os fundamentos da **POO em Java**. 🚀
 
-As figuras que viraram classes no projeto são:
+---
 
-Triângulo
+## ⚙️ Conceitos de POO Aplicados
 
-Quadrado
+### ◻️ Abstração
 
-Retângulo
+📁 **Pacote:** `br.edu.figurasgeometricasplanas`  
+Oculta detalhes internos das implementações e mostra só o que importa. Cada figura é representada por uma classe abstrata que define o essencial.  
 
-Círculo
+📁 **Pacote:** `br.edu.principal`  
+Contém a classe principal que testa as figuras.
 
-Losango
+📌 **Diagrama UML**  
+Representa as relações entre classes e pacotes, destacando a organização e os métodos.
 
-Trapézio
+📎 **Ver PDF:** _Calculadora Formas Geométricas_
 
-Paralelogramo
+---
 
-Hexágono
+### 🔐 Encapsulamento
 
-Pentágono
+📁 **Pacotes:**  
+- `br.edu.figurasgeometricasplanas` → Figuras como Triângulo, Retângulo, Losango etc.  
+- `br.edu.figurasgeometricasespaciais` → Figuras como Cubo, Esfera, Cone etc.  
+- `br.edu.principal` → Executa os testes com métodos públicos (`get` e `set`)
 
-Cada classe tem:
+Cada classe protege seus atributos e só permite acesso/controlado por métodos.
 
-Atributos privados (como base, altura, lados, raio etc.);
+📌 **Diagrama UML**  
+Mostra como os dados são encapsulados, acessados apenas via métodos públicos.
 
-Construtor para iniciar os valores;
+📎 **Ver PDF:** _Calculadora Formas Geométricas_
 
-Métodos chamados calcArea() que fazem o cálculo.
-___
+---
 
-O diagrama abaixo mostra como as classes estão ligadas, seus métodos e a estrutura geral do projeto:
+### 🧬 Herança
 
- Ver Diagrama - Figuras.Planas.pdf
+📁 **Pacotes:**  
+- `br.edu.figurasgeometricasplanas` → Subclasses herdam de `FiguraPlana`  
+- `br.edu.figurasgeometricasespaciais` → Subclasses herdam de `FiguraEspacial`  
+- `br.edu.principal` → Executa o programa principal
 
+As subclasses reaproveitam atributos e comportamentos das superclasses — menos repetição, mais organização!
+
+📌 **Diagrama UML**  
+Mostra a hierarquia entre classes e como o código é reutilizado.
+
+📎 **Ver PDF:** _Calculadora Formas Geométricas_
+
+---
+
+🧠 **Dica:** Se quiser visualizar os diagramas diretamente no GitHub, você pode incluir os PDFs na pasta do projeto e usar um link assim:
+
+```markdown
+[📄 Acessar Diagrama de Abstração](./diagramas/abstracao.pdf)
