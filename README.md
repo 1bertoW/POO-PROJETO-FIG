@@ -27,9 +27,6 @@ Oculta detalhes internos das implementações e mostra só o que importa. Cada f
 📁 **Pacote:** `br.edu.principal`  
 Contém a classe principal que testa as figuras.
 
-📌 **Diagrama UML**  
-Representa as relações entre classes e pacotes, destacando a organização e os métodos.
-
 📎 **Ver PDF:** _Calculadora Formas Geométricas_
 
 ---
@@ -42,9 +39,6 @@ Representa as relações entre classes e pacotes, destacando a organização e o
 - `br.edu.principal` → Executa os testes com métodos públicos (`get` e `set`)
 
 Cada classe protege seus atributos e só permite acesso/controlado por métodos.
-
-📌 **Diagrama UML**  
-Mostra como os dados são encapsulados, acessados apenas via métodos públicos.
 
 📎 **Ver PDF:** _Calculadora Formas Geométricas_
 
@@ -66,7 +60,5 @@ Mostra a hierarquia entre classes e como o código é reutilizado.
 
 ---
 
-🧠 **Dica:** Se quiser visualizar os diagramas diretamente no GitHub, você pode incluir os PDFs na pasta do projeto e usar um link assim:
-
-```markdown
-[📄 Acessar Diagrama de Abstração](./diagramas/abstracao.pdf)
+🧠 para ver os diagramas estão na pasta com nome:(CalculadoraFormasGeométricasEncapsulado.pdf) para os encapsulados.
+e para com herança:(CalculadoraFormaGeométricasHerença.pdf)
