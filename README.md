@@ -42,6 +42,10 @@ Cada classe protege seus atributos e só permite acesso/controlado por métodos.
 
 📎 **Ver PDF:** _Calculadora Formas Geométricas_
 
+#### 🧬 Diagrama de Herança
+📎 [Ver Diagrama de Herança (PDF)](./CalculadoraFormaGeométricasHerença.pdf)
+
+
 ---
 
 ### 🧬 Herança
@@ -60,5 +64,4 @@ Mostra a hierarquia entre classes e como o código é reutilizado.
 
 ---
 
-🧠 para ver os diagramas estão na pasta com nome:(CalculadoraFormasGeométricasEncapsulado.pdf) para os encapsulados.
-e para com herança:(CalculadoraFormaGeométricasHerença.pdf)
+
