@@ -4,7 +4,7 @@ Este repositório foi criado para mostrar, de forma prática e didática,  aplic
 
 Usando classes para representar cada figura e organizando tudo em pacotes, o projeto reforça princípios como:
 
--  abstrção
+- ◻️ Abstrção
 - 🔒 Encapsulamento  
 - 🧬 Herança  
 
@@ -29,6 +29,9 @@ Contém a classe principal que testa as figuras.
 
 📎 **Ver PDF:** _Calculadora Formas Geométricas_
 
+#### ◻️ Diagrama de Abstração
+📎 [Ver Diagrama de Abstração (PDF)](./CalculadoraFormasGeométricasHerença.pdf)
+
 ---
 
 ### 🔐 Encapsulamento
@@ -43,8 +46,8 @@ Cada classe protege seus atributos e só permite acesso/controlado por métodos.
 📎 **Ver PDF:** _Calculadora Formas Geométricas_
 
 #### 🧬 Diagrama de Herança
+#### 🧬 Diagrama de Herança
 📎 [Ver Diagrama de Herança (PDF)](./CalculadoraFormaGeométricasHerença.pdf)
-
 
 ---
 
@@ -61,6 +64,9 @@ As subclasses reaproveitam atributos e comportamentos das superclasses — menos
 Mostra a hierarquia entre classes e como o código é reutilizado.
 
 📎 **Ver PDF:** _Calculadora Formas Geométricas_
+
+#### 🧬 Diagrama de Herança
+📎 [Ver Diagrama de Herança (PDF)](./CalculadoraFormaGeométricasHerença.pdf)
 
 ---
 
